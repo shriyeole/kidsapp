@@ -9,7 +9,19 @@ const routes: Routes = [
   {
     path: 'splash',
     loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
+  },  {
+    path: 'alphabet-information',
+    loadChildren: () => import('./alphabet-information/alphabet-information.module').then( m => m.AlphabetInformationPageModule)
+  },
+  {
+    path: 'alphabet-information1',
+    loadChildren: () => import('./alphabet-information1/alphabet-information1.module').then( m => m.AlphabetInformation1PageModule)
+  },
+  {
+    path: 'alphabet-information2',
+    loadChildren: () => import('./alphabet-information2/alphabet-information2.module').then( m => m.AlphabetInformation2PageModule)
   }
+
 ];
 @NgModule({
   imports: [
