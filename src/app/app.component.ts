@@ -4,6 +4,8 @@ import { Platform } from '@ionic/angular';
 
 import { Router } from '@angular/router';
 
+import { NumberToWordService } from './services/number-to-word.service';
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',

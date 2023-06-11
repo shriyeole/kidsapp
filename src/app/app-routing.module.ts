@@ -9,7 +9,8 @@ const routes: Routes = [
   {
     path: 'splash',
     loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
-  },  {
+  },
+  {
     path: 'alphabet-information',
     loadChildren: () => import('./alphabet-information/alphabet-information.module').then( m => m.AlphabetInformationPageModule)
   },
@@ -20,7 +21,15 @@ const routes: Routes = [
   {
     path: 'alphabet-information2',
     loadChildren: () => import('./alphabet-information2/alphabet-information2.module').then( m => m.AlphabetInformation2PageModule)
+  },  {
+    path: 'lessons',
+    loadChildren: () => import('./lessons/lessons.module').then( m => m.LessonsPageModule)
+  },
+  {
+    path: 'numbers',
+    loadChildren: () => import('./numbers/numbers.module').then( m => m.NumbersPageModule)
   }
+
 
 ];
 @NgModule({

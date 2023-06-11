@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class Tab3Page {
 
   constructor() {}
-
+  name: string = "Sam Verma";
+  age: number = 15;
+  class: string = "Grade 10";
+  school: string = "ABC School";
+  photoUrl: string = "assets/pro.png";
 }

@@ -26,7 +26,7 @@
 
 .container {
     position: relative;
-    height: 100vh; /* Set the container height to full viewport height */
+    height: 100%; /* Set the container height to full viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +34,7 @@
 
 .container img {
     position: absolute;
-    top: 40%;
-    left: 35%;
     transform: translate(-50%, -50%) scale(0.5); /* Start with 50% scale */
-    height: 100px;
+    height: 100%;
     animation: enlarge-animation 2s cubic-bezier(.25, .46, .45, .94) both;
 }
